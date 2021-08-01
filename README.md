@@ -1,18 +1,6 @@
 # DLPNet
 # Dynamic Focal Loss with Reinforcement Learning for Aerial Imagery Detection
 
-This implementation is extended from official BBAVectors code follow: [Code](https://github.com/yijingru/BBAVectors-Oriented-Object-Detection)
-//[Paper] Oriented Object Detection in Aerial Images with Box Boundary-Aware Vectors ([arXiv](https://arxiv.org/pdf/2008.07043.pdf))
-	
-	@inproceedings{yi2021oriented,
-	title={Oriented object detection in aerial images with box boundary-aware vectors},
-	author={Yi, Jingru and Wu, Pengxiang and Liu, Bo and Huang, Qiaoying and Qu, Hui and Metaxas, Dimitris},
-	booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-	pages={2150--2159},
-	year={2021}
-	}
-
-
 # Introduction
 Object Detection on aerial imagery is a challenging task due to the following unique characteristics of the aerial imagery data: the large image size and the huge volume of data. Since the original image size from remote sensing sources is generally more colossal than the typical natural images, splitting an image into smaller image patches is a commonly used pre-processing method, where publicly available datasets are often distributed in smaller patches.
 However, this process can result in a poor detection performance due to certain objects being located at the edge of image patches. Therefore, generally performance can be degraded, if one merely focuses on the small patch itself, instead of the original larger image.  
@@ -45,3 +33,15 @@ Therefore, in this work, we propose a novel method to enable a robust and stable
 --seed 12345 \
 --save_dir 'save_folder_path'
 ```
+
+This implementation is extended from official BBAVectors code follow: [Code](https://github.com/yijingru/BBAVectors-Oriented-Object-Detection)
+
+[Paper] Oriented Object Detection in Aerial Images with Box Boundary-Aware Vectors ([arXiv](https://arxiv.org/pdf/2008.07043.pdf))
+	
+	@inproceedings{yi2021oriented,
+	title={Oriented object detection in aerial images with box boundary-aware vectors},
+	author={Yi, Jingru and Wu, Pengxiang and Liu, Bo and Huang, Qiaoying and Qu, Hui and Metaxas, Dimitris},
+	booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+	pages={2150--2159},
+	year={2021}
+	}
