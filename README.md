@@ -8,9 +8,12 @@ In addition, high computing resources are required to process the large amount o
 Therefore, in this work, we propose a novel method to enable a robust and stable training with a small batch size as well. Our model composes of an oriented object detection model and a reinforcement learning agent. Our reinforcement learning agent extracts features from training batch data and determines optimal parameters to the focal loss function of the object detection model. This dynamic focal loss function with adaptive parameters can achieve a more robust and stable learning process than other advanced baseline model. We demonstrate the effectiveness of our approach with a well-known dataset, DOTA-v2.0.
 
 <p align="center">
-	<img src="imgs/img1.png", width="800">
+	<img src="imgs/diagram.png", width="800">
 </p>
 
+<p align="center">
+	<img src="imgs/overview.png", width="800">
+</p>
 
 ## Train Model
 ```ruby
