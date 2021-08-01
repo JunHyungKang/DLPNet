@@ -11,9 +11,6 @@ Therefore, in this work, we propose a novel method to enable a robust and stable
 	<img src="imgs/img1.png", width="800">
 </p>
 
-# Evaluation Results on [DOTA-v1.0](https://captain-whu.github.io/DOTA/evaluation.html)
-
-
 
 ## Train Model
 ```ruby
