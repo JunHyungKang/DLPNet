@@ -2,8 +2,11 @@
 # Dynamic Focal Loss with Reinforcement Learning for Aerial Imagery Detection
 
 This implementation is extended from official BBAVectors code below:
+
 [Code](https://github.com/yijingru/BBAVectors-Oriented-Object-Detection)
+
 [Paper] Oriented Object Detection in Aerial Images with Box Boundary-Aware Vectors ([arXiv](https://arxiv.org/pdf/2008.07043.pdf))
+	
 	@inproceedings{yi2021oriented,
 	title={Oriented object detection in aerial images with box boundary-aware vectors},
 	author={Yi, Jingru and Wu, Pengxiang and Liu, Bo and Huang, Qiaoying and Qu, Hui and Metaxas, Dimitris},
